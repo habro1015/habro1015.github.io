@@ -1,0 +1,230 @@
+*{  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+}
+.whole {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #06f;
+}
+.whole .upper {
+    height: 3.125rem;
+}
+.whole .upper {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #06f;
+    font-size: .875rem;
+}
+.whole .upper .uppertop{
+    display: flex;
+    width: 1200px;
+    height: 4.75rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+    color: #fff;
+}
+.whole .upper .uppertop img{
+    width: 11.125rem;
+}
+.whole .upper .uppertop a{
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+}
+.whole .main_{
+    display: flex;
+    justify-content: center;
+    background: #06f
+}
+.whole .main_ .main_2{
+    display: grid;
+    width: 1200px;
+    height: 100%;
+    padding: 0 1.25rem;
+    background: #06f;
+    grid-template-columns: auto 380px;
+}
+.whole .main_ .main_2 .leftside{
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.whole .main_ .main_2 .leftside .engineer{
+    margin-top: 6.75rem;
+    margin-bottom: .875rem;
+    color: rgba(255,255,255,.7);
+}
+.whole .main_ .main_2 .leftside .nicetomeet{
+    font-size: 1.25rem;
+    color: #fff;
+
+}
+.whole .main_ .main_2 .leftside img{
+    width: 80%;
+    max-width: 31.25rem;
+}
+.whole .main ._i_{
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.whole .main_ ._i_ .by{
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-radius: .9375rem;
+    margin-top: 6.75rem;
+    background: #f9fafb;
+}
+.nUR {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.d6{
+    display: grid;
+    width: 100%;
+    height: 3.125rem;
+    align-items: center;
+    border-radius: .9375rem .9375rem 0 0;
+    background: #f4f4f4;
+    grid-template-columns: 1fr 1fr;
+}
+.d6 .userid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius:0.9375rem 0.9375rem 0 0;
+    margin: auto;
+    background: #f4f4f4;
+    text-decoration-line: none;
+    color: #0078ff;
+    font-weight: 700;
+}
+.d6 .userpassword{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: .9375rem .9375rem 0 0;
+    margin: auto;
+    background: #f4f4f4;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.nUR .G7{
+    width: 100%;
+    height: 100%;
+    padding: 1.875rem 2rem;
+    border-radius: .9375rem;
+    background: #fff;
+/* 백그라운드 이미지? */
+}
+.nUR .G7 .lf{
+    width: 100%;
+    margin-bottom: .5rem;
+    font-size: .8125rem;
+    font-weight: 700;
+}
+.Mv{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.Mv input .Fy{
+    padding-left: 2.75rem;
+}
+.Mv input{
+    width: 100%;
+    height: 2.875rem;
+    padding: .5rem 2.5rem .5rem .875rem;
+    border: 1px solid #d2d2d2;
+    border-radius: .25rem;
+}
+.nUR .G7 .lf2{
+    margin-top: 2.25rem;
+    width: 100%;
+    margin-bottom: .5rem;
+    font-size: .8125rem;
+    font-weight: 700;
+}
+.nUR .G7 .lf2 a{
+    color: #3376f6;
+    float: right;
+    font-size: .8125rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Mv2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.Mv2 input .Fy2{
+    padding-left: 2.75rem;
+}
+.Mv2 input{
+    width: 100%;
+    height: 2.875rem;
+    padding: .5rem 2.5rem .5rem .875rem;
+    border: 1px solid #d2d2d2;
+    border-radius: .25rem;
+}
+/* 비밀번호 끝 */
+.nUR .G7 .log{
+    width: 100%;
+    height: 2.75rem;
+    border-radius: 4px;
+    margin-top: 2.75rem;
+    background: #4981f8;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.nUR .G7 .rgdown{
+        width: 100%;
+        margin-top: 2.0625rem;
+        font-size: .8125rem;
+        text-align: center;
+}
+.nUR .G7 .rgdown{
+    margin-bottom: 1.5rem;
+}
+.nUR .G7 .rgdown .RIcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.nUR .G7 .rgdown .RIcontents img{
+    width: 2.875rem;
+    border-radius: .5rem;
+}
